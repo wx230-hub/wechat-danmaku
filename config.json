@@ -1,0 +1,38 @@
+{
+  "process": "weixin.exe",
+  "poll_interval": 1.5,
+  "emit_on_start": false,
+  "sidebar_box_rel": [
+    0.04,
+    0.07,
+    0.23,
+    1
+  ],
+  "ocr_scale": 2,
+  "auto_restore": false,
+  "keep_restored": false,
+  "font_size": 26,
+  "stroke_width": 2,
+  "speed": 130,
+  "min_gap": 60,
+  "lane_gap": 16,
+  "lane_top": 70,
+  "lane_area_ratio": 0.62,
+  "max_lanes": 14,
+  "opacity": 1,
+  "palette": [
+    "#ffffff",
+    "#9ee7ff",
+    "#ffd88a",
+    "#b7ffb0",
+    "#ffb3d1",
+    "#d9c2ff"
+  ],
+  "format": "{title}  {preview}",
+  "blacklist": [
+    "文件传输助手",
+    "微信团队",
+    "服务通知"
+  ],
+  "log_file": "danmaku.log"
+}
